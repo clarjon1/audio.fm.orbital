@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="audio.fm.orbital" name="Orbital.FM Radio Stream" version="0.1.0" provider-name="clarjon1">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="main.py">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Orbital.FM</summary>
+    <description lang="en">Your #1 Galaxy Radio Station</description>
+    <disclaimer lang="en"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website>http://orbital.fm/</website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
